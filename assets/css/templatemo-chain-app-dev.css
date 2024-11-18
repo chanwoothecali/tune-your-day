@@ -257,8 +257,8 @@ body {
 
 .gradient-button a:hover {
   color: #fff !important;
-  background: rgb(19,175,240);
-  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+  background: rgb(130,110,240);
+  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(130,110,240,1) 100%);
 }
 
 .border-button a {
@@ -922,7 +922,6 @@ Banner Style
   font-weight: 700;
   line-height: 70px;
   font-size: 50px;
-  margin-bottom: 20px;
 }
 
 .main-banner .left-content p {
@@ -1964,7 +1963,6 @@ responsive
     font-weight: 700;
     line-height: 70px;
     font-size: 50px;
-    margin-bottom: 20px;
   }
 
   .main-banner .left-content p {

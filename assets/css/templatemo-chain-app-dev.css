@@ -894,14 +894,14 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 250px 120px 150px 120px;
+  padding: 120px 120px 30px 120px;
   position: relative;
   overflow: hidden;
 }
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.png);
+  /*background-image: url(../images/slider-left-dec.png);*/
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -1574,7 +1574,7 @@ footer {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 130px;
+  /*margin-top: 130px;*/
   padding-top: 300px;
   padding-bottom: 60px;
 }
@@ -1585,6 +1585,14 @@ footer .section-heading {
 
 footer .section-heading h4 {
   line-height: 45px;
+  color: #fff;
+  margin-left: 13%;
+  margin-right: 13%;
+  text-align: center;
+}
+
+footer .section-heading h5 {
+  line-height: 30px;
   color: #fff;
   margin-left: 13%;
   margin-right: 13%;
@@ -1608,6 +1616,25 @@ footer #search input {
   background-color: transparent;
   border-bottom: 1px solid #fff;
   width: 100%;
+}
+
+footer #search textarea {
+  font-size: 15px;
+  color: #fff;
+  outline: none;
+  height: 46px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+
+footer #search textarea::placeholder {
+  color: #fff;
+}
+
+footer #search .search-input {
+  margin: 10px 0;
 }
 
 footer #search button {
@@ -2000,7 +2027,7 @@ responsive
   }
   .main-banner {
     text-align: center;
-    padding: 226px 0px 30px 0px;
+    padding: 226px 0 30px 0;
   }
   .main-banner:before {
     display: none;

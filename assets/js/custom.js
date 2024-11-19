@@ -116,7 +116,7 @@ $(function() {
   });
 
   $(document).ready(function () {
-      $(document).on("scroll", onScroll);
+      // $(document).on("scroll", onScroll);
       
       //smoothscroll
       $('.scroll-to-section a[href^="#"]').on('click', function (e) {
@@ -140,7 +140,7 @@ $(function() {
       });
   });
 
-  function onScroll(event){
+  /*function onScroll(event){
       var scrollPos = $(document).scrollTop();
       $('.nav a').each(function () {
           var currLink = $(this);
@@ -153,7 +153,7 @@ $(function() {
               currLink.removeClass("active");
           }
       });
-  }
+  }*/
 
 
   // Acc

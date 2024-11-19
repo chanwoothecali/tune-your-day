@@ -145,4 +145,5 @@ $(document).ready(function () {
                 $('#submit-email').val('');
                 $('#submit-advice').val('');
             });
+
     });

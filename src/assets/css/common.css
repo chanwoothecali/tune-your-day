@@ -1496,7 +1496,7 @@ Free Quote
 */
 
 .free-quote {
-  background-image: url(../images/quote-bg.jpg);
+  /*background-image: url(../images/quote-bg.jpg);*/
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1618,6 +1618,10 @@ footer #search input {
   width: 100%;
 }
 
+footer #search textarea::placeholder {
+  color: #fff;
+}
+
 footer #search textarea {
   font-size: 15px;
   color: #fff;
@@ -1627,10 +1631,6 @@ footer #search textarea {
   background-color: transparent;
   border-bottom: 1px solid #fff;
   width: 100%;
-}
-
-footer #search textarea::placeholder {
-  color: #fff;
 }
 
 footer #search .search-input {
@@ -2146,11 +2146,22 @@ responsive
     margin-bottom: 15px;
     padding: 0px 30px;
   }
+  footer #search textarea {
+    border: 1px solid #eee;
+    color: #afafaf;
+    background-color: #fff;
+    border-radius: 23px;
+    margin-bottom: 15px;
+    padding: 0px 30px;
+  }
   footer #search button {
     background-color: #fff;
     color: #4b8ef1;
   }
   footer #search input::placeholder { 
+    color: #2a2a2a;
+  }
+  footer #search textarea::placeholder {
     color: #2a2a2a;
   }
   .header-area .main-nav .logo h4 {

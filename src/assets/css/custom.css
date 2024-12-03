@@ -2,3 +2,31 @@
     height: 100px;
     width: 100px;
 }
+
+.service {
+    background: url(/src/assets/images/footer-bg.png);
+}
+
+.answer {
+    background-color: #3dd5f3;
+    color: #fff;
+    border-style:solid;
+    border-width:1px;
+    border-color: black;
+    margin-top: 10px;
+}
+
+.ask {
+    background-color: #3dd5f3;
+    color: #fff;
+    text-align: right;
+    border-style:solid;
+    border-width:1px;
+    border-color: black;
+    margin-top: 10px;
+}
+
+#chatContainer {
+    margin-left: 25%;
+    margin-right: 25%;
+}

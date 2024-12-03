@@ -62,7 +62,11 @@
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
-            <li class="scroll-to-section"><a href="/" class="active">Home</a></li>
+            <!--<li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+            <li class="scroll-to-section"><a href="#services">Services</a></li>
+            <li class="scroll-to-section"><a href="#about">About</a></li>
+            <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
+            <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>-->
             <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div></li>
           </ul>
           <a class='menu-trigger'>
@@ -162,36 +166,23 @@
   </section>
 </div>
 
-<!--<div id="services" class="services section">
+<footer id="newsletter" style="padding-top:500px;">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-          <h4>Amazing <em>Services &amp; Features</em> for you</h4>
-          <img src="src/assets/images/heading-line-dec.png" alt="">
-          <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more information.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>-->
+    <div class="row" id="chatContainer" class="chat-container">
 
-<footer id="service" class="chat-container">
-  <div class="container">
+    </div>
     <div class="row">
-      <div class="col-lg-6 offset-lg-3 chat-box">
-        <div class="answer">test</div>
-        <div class="ask">test</div>
+      <div class="col-lg-6 offset-lg-3">
         <div id="search">
           <div class="row">
             <div class="search-input">
               <fieldset>
-                <input id="submit-advice" class="chat-input" type="text" name="text" placeholder="..." autocomplete="on" required>
+                <input id="submitAdvice" type="text" name="text" cols="40" rows="5" placeholder="오늘 하루 이야기하기..." autocomplete="on" required></input>
               </fieldset>
             </div>
             <div class="search-input">
               <fieldset>
-                <button id="chat-submit" type="submit" class="main-button">보내기 <i class="fa fa-angle-right"></i></button>
+                <button id="send" type="submit" class="main-button" onclick="sendChatRequest()">보내기 <i class="fa fa-angle-right"></i></button>
               </fieldset>
             </div>
           </div>
